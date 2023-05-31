@@ -1,0 +1,547 @@
+body{
+    width: 95.7%;
+}
+.header{
+    position: fixed;
+    display: grid;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    grid-template-columns: 2fr 8fr 2fr;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0 5px 10px #efefef;
+}
+.co{
+    font-size: 20px;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.btn{
+    display:flex ;
+    align-items: top;
+    justify-content: center;
+    margin-top: -0.5em;
+    flex-direction: row;
+    justify-content:space-between ;
+}
+.btn > button{
+    flex: 1;
+}
+.login{
+    box-sizing: border-box;
+    background-color: blue;
+   border-color: blue;
+  
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: white;   
+}
+.up{
+    box-sizing: border-box;
+    align-items: center;
+
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: blue;
+    border-color: blue;
+    background-color: white;
+}
+.use{
+    box-sizing: border-box;
+    align-items: center;
+    width: 20%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    border-color: blue;
+    background-color: blue;
+    margin-left: 40%;
+}
+.star{
+    box-sizing: border-box;
+    align-items: center;
+    width: 20%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    border-color: blue;
+    background-color: blue;
+    margin-left: 5%;
+}
+ul li a{
+    color: black;
+    font-size: 17px;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+     justify-content:center;
+     align-items: top;
+     display: flex;
+     flex-direction: row;
+}
+li{
+    flex: 1;
+}
+
+.conn{
+    text-align: center;
+    margin-top: 50px;
+}
+.conne{
+    text-align: center;
+    font-size: 400%;
+    margin-top: -40px;
+}
+.dat{
+    text-align: center;
+    font-size: 150%;
+    color: gray;
+}
+.con{
+    text-align: center;
+    color: white;
+    
+}
+.demo{
+    font-size: 20px;
+    color: blue;
+    text-align: center;
+}
+.rec{
+    margin-left: 40%;
+    margin-top: 80px;
+}
+.image{
+    display: flex;
+    margin-left: 5%;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    font-size: 23px;
+    color: gray;
+}
+.our{
+    text-align: center;
+    margin-top: 100px;
+    color: gray;
+}
+
+.box1{
+     margin-top: 70px;
+    display: grid;
+    grid-template-columns: 48% 47%;
+    justify-content: space-evenly;
+    gap: 30px;
+    
+}
+.info{
+    color: white;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.info-acc{
+    margin-left: 200px;
+    margin-top: 50px;
+    
+}
+
+.ze{
+    text-align: left;
+    color: wheat;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 150px;
+}
+
+.one{
+    background-color: rgb(9, 9, 87);
+    border-radius: 30px;
+     height: 100%;
+    
+}
+.two{
+    border-radius: 30px;
+     height: 100%;
+    background-color: rgb(9, 9, 87);
+}
+.his{
+     color: white;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.tra{
+     margin-left: 200px;
+    margin-top: 50px;
+    
+}
+.cop{
+    text-align: left;
+    color: wheat;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 160px;
+}
+.box3{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 48% 47%;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.boxx{
+    padding-left: 50px;
+    border-radius: 30px;
+    height: 100%;
+    background-color: rgb(9, 9, 87);
+}
+.box4{
+    border-radius: 30px;
+    height: 100%;
+    background-color: rgb(9, 9, 87);
+}
+.net{
+    color: gray;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 20px;
+}
+.next{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    gap: 30px;
+    
+}
+.loa{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.bas{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    margin-top: 50px;
+}
+.ge{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.next1{
+    align-items: center;
+    background-color: bisque;
+    border-radius: 30px;
+    height: 370px;
+}
+.next2{
+    align-items: center;
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+.che{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.cla{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    margin-top: 50px;
+}
+.fin{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.mak{
+    align-items: center;
+    border-radius: 30px;
+    background-color: gainsboro;
+}
+.tech{
+    align-items: center;
+    background-color: rgb(46, 46, 141);
+    border-radius: 30px;
+    height: 350px;
+}
+.bet{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.fail{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    margin-top: 50px;
+}
+.be{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+.next3{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.busi{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 60px;
+}
+.sec{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+    margin-top: 50px;
+}
+.prm{
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.three{
+     color: white;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.year{
+     margin-left: 200px;
+    margin-top: 50px;
+}
+.aware{
+     text-align: left;
+    color: wheat;
+    margin-left: 20px;
+    font-size: 20px;
+    margin-top: 120px;
+}
+.four{
+   color: white;
+    margin-left: 20px;
+    font-size: 35px;
+}
+.income{
+      margin-left: 200px;
+    margin-top: 50px;
+}
+.base{
+     text-align: left;
+    color: wheat;
+    margin-left: 50px;
+    font-size: 20px;
+    margin-top: 90px;
+}
+.another{
+    margin-top: 60px;
+    color: gray;
+    text-align: center;
+}
+.another1{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    gap: 30px;
+
+}
+.app{
+    align-items: center;
+    border-radius: 20px;
+    background-color: lightskyblue
+}
+.link{
+    align-items: center;
+    background-color: gray;
+    height: 200px;
+    color: white;
+    border-radius: 20px;
+}
+.grat{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.uni{
+    text-align: center;
+    font-size: 19px;
+}
+.an{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.das{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.get{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+.get1{
+    background-color: rgb(200, 208, 211);
+    height: 200px;
+    border-radius: 20px;
+}
+.aut{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.keys{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.que{
+    background-color: seashell;
+    height: 200px;
+    border-radius: 20px;
+}
+.confi{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+}
+.will{
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+.con{
+    align-items: center;
+    background-color: aquamarine;
+}
+.watch{
+    text-align: center;
+    color: gray;
+    margin-top: 50px;
+}
+.youtube{
+    margin-left: 250px;
+    margin-top: 40px;
+}
+.youtube img{
+    width: 80%;
+}
+.start{
+
+    margin-top: 50px;
+    margin-left: 550px;
+}
+.deve{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(7, 7, 36);
+    
+}
+.container{
+    background-color: lightslategray;
+    width: 95%;
+    margin-left: 50px;
+    
+    
+}
+.conta{
+    display: flex;
+    justify-content: space-around;
+}
+
+.first{
+font-size: 40px;
+
+}
+.second{
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+}
+.user{
+    color: wheat;
+    font-size: 20px;
+    margin-top: -60px;
+    margin-left: 80px;
+}
+.infra{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 70px;
+    color: rgb(8, 8, 75);
+}
+.contact{
+    width: 104%;
+    background-color: rgb(8, 8, 75);
+    color: white;
+   
+}
+.contactt{
+    display: flex;
+    justify-content: space-between;
+}
+.cc{
+    text-align: center;
+    margin-top: 130px;
+}
+.fut{
+    margin-left: -131px;
+    margin-top: 61px;
+    font-size: 18px;
+}
+.legal{
+    margin-right: 80px;
+    font-size: 20px;
+     margin-top: 30px;
+}
+.pro{
+    font-size: 20px;
+    margin-top: 30px;
+}
+.resources{
+    font-size: 20px;
+     margin-top: 30px;
+}
+.company{
+    font-size: 20px;
+     margin-top: 30px;
+}
+.cond{
+    margin-top: 60px;
+    margin-left: 50px;
+    
+}
+.ted{
+    box-sizing: border-box;
+    align-items: center;
+    width: 20%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    color: white;
+    border-color: blue;
+    background-color: blue;
+    margin-left: 5%;
+}
+.gs{
+    display: flex;
+    margin-left: 38%;
+}
+.boo{
+    color: blue;
+    font-size: 20px;
+    margin-left: 20px;
+    margin-top: -15px;
+}
